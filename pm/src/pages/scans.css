@@ -1,0 +1,65 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  .webcam-style {
+    width: 5%; /* Adjust as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .scan-button {
+    position: absolute;
+    top: 70%; /* Adjust as needed */
+    left: 0;
+  }
+  .add-button {
+    position: absolute;
+    top: 70%; /* Adjust as needed */
+    left: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .webcam-container {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .form-container {
+    flex: 1;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .form-style {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-style label {
+    margin-bottom: 10px;
+  }
+  
+  .form-style input,
+  .form-style select {
+    margin-bottom: 20px;
+  }
+  input[type=text],select {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
